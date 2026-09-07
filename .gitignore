@@ -5,7 +5,18 @@ Lost in Lamu/
 _lavorazione/
 0. Info Tales of Lamu 2026.pdf
 
+# Documento di lavoro interno: contiene anche il dettaglio di quanto sia debole
+# la password del sito. Non deve stare su una repo pubblica.
+BRIEF.md
+
 # file di sistema / cache
 .DS_Store
 __pycache__/
 *.pyc
+
+# cartelle locali di lavoro (Claude Code, output di sessione) e bozze email:
+# niente di tutto questo riguarda il sito pubblicato.
+.claude/
+Claude outputs/
+email/
+
