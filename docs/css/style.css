@@ -410,6 +410,15 @@ h1, h2, h3 { font-family: var(--serif); font-weight: 500; margin: 0; }
   justify-content: flex-end;
   gap: 12px !important;
 }
+@media (max-width: 600px) {
+  .coll-header { width: 100%; }
+  .coll-actions-split {
+    flex-direction: column !important;
+    align-items: stretch;
+    width: 100%;
+  }
+  .coll-actions-split .btn { justify-content: center; width: 100%; }
+}
 .coll-logo img {
   height: 58px;
   width: auto;
