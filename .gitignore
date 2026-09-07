@@ -1,0 +1,11 @@
+# Materiale grezzo e di lavorazione: resta solo in locale, non va pubblicato.
+# Le stesse foto (quelle scelte) sono già dentro docs/, con le protezioni del sito.
+Foto/
+Lost in Lamu/
+_lavorazione/
+0. Info Tales of Lamu 2026.pdf
+
+# file di sistema / cache
+.DS_Store
+__pycache__/
+*.pyc
