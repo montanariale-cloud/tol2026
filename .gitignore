@@ -1,22 +1,18 @@
-# Materiale grezzo e di lavorazione: resta solo in locale, non va pubblicato.
-# Le stesse foto (quelle scelte) sono già dentro docs/, con le protezioni del sito.
-Foto/
-Lost in Lamu/
-_lavorazione/
-0. Info Tales of Lamu 2026.pdf
-
-# Documento di lavoro interno: contiene anche il dettaglio di quanto sia debole
-# la password del sito. Non deve stare su una repo pubblica.
-BRIEF.md
+# Progetti: il materiale (foto, csv di lavorazione, brief...) resta solo
+# locale. Restano tracciati solo i file guida (README.md) di ogni progetto,
+# cosi' la struttura e' visibile anche a chi clona la repo senza il materiale.
+progetti/**
+!progetti/**/
+!progetti/**/README.md
 
 # file di sistema / cache
 .DS_Store
 __pycache__/
 *.pyc
 
-# cartelle locali di lavoro (Claude Code, output di sessione) e bozze email:
-# niente di tutto questo riguarda il sito pubblicato.
+# cartelle locali di lavoro (Claude Code, Codex, output di sessione) e
+# bozze email: niente di tutto questo riguarda i siti pubblicati.
 .claude/
+.codex/
 Claude outputs/
 email/
-
